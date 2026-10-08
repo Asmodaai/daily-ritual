@@ -1,0 +1,122 @@
+/* Photography art direction. Original design tokens and responsive architecture stay in style.css. */
+.editorial-photo { display: block; width: 100%; height: 100%; object-fit: cover; background: #e4e0d6; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+/* A photographed gesture and a separate, recognizably illustrated DAILY RITUAL object. */
+.hero-photo { position: absolute; right: 0; top: 54px; width: 68%; height: calc(100% - 109px); object-position: 49% 54%; }
+.hero-product-stage { position: absolute; left: 0; bottom: 9%; width: 50%; height: 66%; z-index: 2; }
+.hero-product-stage .arch-back { width: 100%; height: 100%; left: 0; bottom: 0; border: 8px solid #e9e6dc; border-bottom: 0; }
+.hero-product-stage .hero-bottle { width: 86%; left: 7%; bottom: 7%; transform: rotate(-7deg); }
+.hero-product-stage .stone-plinth { left: 0; width: 100%; bottom: 0; height: 12%; }
+.hero-product-stage .bottle-shadow { left: 30%; bottom: 12%; width: 60%; }
+.hero-product-stage .art-sun { display: none; }
+.hero-art .art-side-label { top: 15%; left: 21px; right: auto; font-size: 7px; }
+.hero-art > .art-index, .hero-art > figcaption { z-index: 4; }
+
+/* Human atmosphere follows the philosophy, with space for a short editorial caption. */
+.philosophy-moment { margin-top: 53px; display: grid; grid-template-columns: 1.55fr .7fr; gap: 7%; align-items: center; }
+.philosophy-moment > .editorial-photo { aspect-ratio: 1.9; object-position: 60% 46%; }
+.philosophy-moment figcaption { display: flex; flex-direction: column; align-items: flex-start; gap: 26px; }
+.philosophy-moment figcaption > span:nth-child(2) { font: 34px/1.22 var(--serif); letter-spacing: -.035em; }
+.moment-caption { font-size: 11px; line-height: 1.7; color: var(--muted); }
+.philosophy .principles { margin-top: 45px; }
+
+/* The same three-column editorial grid: tactile photographs, quiet product signatures. */
+.care-art > .editorial-photo { object-position: 47% 50%; transition: transform .35s ease; }
+.care-art-cleanse > .editorial-photo { object-position: 42% 46%; }
+.care-art-hydrate > .editorial-photo { object-position: 49% 44%; }
+.care-art-protect > .editorial-photo { object-position: 47% 38%; }
+.care-art:hover > .editorial-photo { transform: scale(1.025); }
+.care-art .care-number { z-index: 2; padding: 6px 9px; background: var(--paper); color: var(--ink); }
+.care-product-inset { position: absolute; bottom: 0; right: 0; width: 29%; height: 37%; background: #e9e6dc; border-top: 6px solid #ebece3; border-left: 6px solid #ebece3; }
+.care-product-inset .product-visual { width: 88%; height: 96%; left: 6%; bottom: 2%; }
+.care-art .circle-arrow { left: 20px; right: auto; background: var(--paper); border-color: #868b76; z-index: 2; }
+.care-art:hover .care-product-inset .product-visual { transform: none; }
+
+/* One photograph for the ritual, keeping all three steps together and readable. */
+.ritual-moment { display: grid; grid-template-columns: 1.35fr 1fr; gap: 8%; margin-top: 48px; align-items: center; }
+.ritual-moment > .editorial-photo { aspect-ratio: 1.9; object-position: 75% 50%; }
+.ritual-moment figcaption { display: flex; flex-direction: column; gap: 25px; }
+.ritual-moment figcaption > span:last-child { font: 43px/1.15 var(--serif); letter-spacing: -.045em; }
+.ritual-moment .eyebrow { color: #d3d8c6; font-size: 9px; }
+
+/* Products retain their original SVG stage; the photo is an adjacent material study. */
+.collection-texture { margin-bottom: 32px; display: grid; grid-template-columns: 1fr .6fr; align-items: end; gap: 20px; }
+.collection-texture > .editorial-photo { aspect-ratio: 2; object-position: 47% 58%; }
+.collection-texture figcaption { font: italic 20px/1.35 var(--serif); letter-spacing: -.02em; padding-bottom: 2px; }
+.about-photograph { background: transparent; aspect-ratio: auto; overflow: visible; padding: 0 6% 0 0; }
+.about-photograph > .editorial-photo { aspect-ratio: .9; height: auto; object-position: 48% 55%; }
+.about-photograph figcaption { border-top: 1px solid var(--line); margin-top: 17px; padding-top: 13px; font-size: 10px; color: var(--muted); }
+
+/* Optional source details belong in the footer, not over the photographs. */
+.photo-credits { margin-top: 22px; color: var(--muted); font-size: 10px; }
+.photo-credits summary { display: flex; align-items: center; justify-content: space-between; min-height: 44px; max-width: 230px; list-style: none; gap: 30px; }
+.photo-credits summary::-webkit-details-marker { display: none; }
+.photo-credits summary > span { font-size: 17px; }
+.photo-credits[open] summary > span { transform: rotate(45deg); }
+.photo-credits p { font-size: 11px; max-width: 650px; margin: 10px 0; }
+.photo-credits ul { padding: 0; margin: 12px 0; list-style: none; display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; }
+.photo-credits li a, .photo-credits > a { display: inline-block; padding-block: 10px; text-decoration: underline; text-underline-offset: 3px; line-height: 1.7; }
+.photo-credits a svg { display: inline-block; width: 1em; height: 1em; margin-left: .35em; vertical-align: -.12em; }
+
+@media (max-width: 1100px) {
+  .hero-product-stage { width: 52%; height: 56%; bottom: 10%; }
+  .philosophy-moment figcaption > span:nth-child(2) { font-size: 28px; }
+  .ritual-moment figcaption > span:last-child { font-size: 36px; }
+  .collection-texture { gap: 14px; }
+  .collection-texture figcaption { font-size: 17px; }
+}
+@media (max-width: 900px) {
+  .hero-photo { top: 47px; height: calc(100% - 94px); width: 76%; object-position: 47% 54%; }
+  .hero-product-stage { width: 58%; height: 52%; }
+  .hero-art .art-side-label { left: 12px; top: 18%; font-size: 6px; }
+  .philosophy-moment { grid-template-columns: 1.4fr .9fr; gap: 6%; }
+  .philosophy-moment > .editorial-photo { aspect-ratio: 1.35; object-position: 73% 48%; }
+  .philosophy-moment figcaption { gap: 18px; }
+  .philosophy-moment figcaption > span:nth-child(2) { font-size: 25px; }
+  .ritual-moment { gap: 6%; }
+  .ritual-moment > .editorial-photo { aspect-ratio: 1.45; }
+  .ritual-moment figcaption > span:last-child { font-size: 32px; }
+  .ritual-moment .eyebrow { max-width: 160px; }
+  .care-product-inset { width: 34%; height: 34%; border-width: 4px; }
+  .care-art .circle-arrow { left: 13px; }
+  .collection-texture { grid-template-columns: 1fr; gap: 9px; }
+  .collection-texture > .editorial-photo { aspect-ratio: 2.8; }
+  .collection-texture figcaption { font-size: 16px; }
+  .about-photograph { padding: 0; }
+  .about-photograph > .editorial-photo { aspect-ratio: .7; object-position: 46% 54%; }
+}
+@media (max-width: 600px) {
+  .hero-art { aspect-ratio: 1 / 1.12; }
+  .hero-photo { top: 44px; width: 70%; height: calc(100% - 89px); object-position: 49% 55%; }
+  .hero-product-stage { width: 50%; height: 62%; bottom: 12%; }
+  .hero-product-stage .arch-back { border-width: 5px; }
+  .hero-product-stage .hero-bottle { width: 90%; left: 5%; bottom: 7%; }
+  .hero-art .art-side-label { top: 19%; font-size: 6px; left: 12px; }
+  .philosophy-moment { margin-top: 33px; grid-template-columns: 1fr; gap: 21px; }
+  .philosophy-moment > .editorial-photo { aspect-ratio: 1.45; object-position: 72% 44%; }
+  .philosophy-moment figcaption { display: grid; grid-template-columns: .8fr 1.2fr; gap: 12px 18px; align-items: start; }
+  .philosophy-moment figcaption .eyebrow { font-size: 8px; }
+  .philosophy-moment figcaption > span:nth-child(2) { font-size: 25px; }
+  .moment-caption { grid-column: 2; font-size: 10px; }
+  .philosophy .principles { margin-top: 31px; }
+  .care-art { aspect-ratio: 1.12; }
+  .care-product-inset { width: 26%; height: 42%; border-width: 5px; }
+  .care-art .circle-arrow { left: 20px; }
+  .care-art-hydrate > .editorial-photo { object-position: 50% 45%; }
+  .ritual-moment { grid-template-columns: 1fr; gap: 19px; margin-top: 30px; }
+  .ritual-moment > .editorial-photo { aspect-ratio: 1.45; object-position: 85% 50%; }
+  .ritual-moment figcaption { flex-direction: row; align-items: center; justify-content: space-between; gap: 20px; }
+  .ritual-moment .eyebrow { max-width: 130px; font-size: 8px; }
+  .ritual-moment figcaption > span:last-child { font-size: 29px; }
+  .collection-texture { grid-template-columns: 1fr .75fr; gap: 22px; margin-bottom: 30px; }
+  .collection-texture > .editorial-photo { aspect-ratio: 1.55; }
+  .collection-texture figcaption { font-size: 20px; }
+  .about-photograph { width: 86%; }
+  .about-photograph > .editorial-photo { aspect-ratio: 1.15; object-position: 48% 54%; }
+  .photo-credits ul { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .care-art > .editorial-photo { transition: none; }
+  .care-art:hover > .editorial-photo { transform: none; }
+}

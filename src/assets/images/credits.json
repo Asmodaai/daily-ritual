@@ -1,0 +1,338 @@
+[
+  {
+    "key": "hands",
+    "id": 5938576,
+    "name": "sora-shimazaki-hands-cream",
+    "author": "Sora Shimazaki",
+    "source": "https://www.pexels.com/photo/african-american-woman-moisturizing-hand-with-lotion-5938576/",
+    "use": "Hero — ruce při nanášení krému vedle původní lahvičky.",
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "alt": "Detail rukou při nanášení krému, bílý oděv a měkká tkanina.",
+    "sourceDimensions": [
+      2400,
+      3600
+    ],
+    "sourceBytes": 736031,
+    "downloadUrl": "https://images.pexels.com/photos/5938576/pexels-photo-5938576.jpeg?auto=compress&cs=tinysrgb&w=2400&q=92",
+    "variants": [
+      {
+        "file": "sora-shimazaki-hands-cream-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 21094,
+        "sha256": "4b8ab62c9e673f2d2cb3bdfd6098499457b91b99b9f54bc8f4eabbf6a65d41cf"
+      },
+      {
+        "file": "sora-shimazaki-hands-cream-960.webp",
+        "width": 960,
+        "height": 1440,
+        "bytes": 55842,
+        "sha256": "c8c7f0772e481c4134b59905a13b58a4e8bbf58a3ed531351b815fb8d3273195"
+      },
+      {
+        "file": "sora-shimazaki-hands-cream-1440.webp",
+        "width": 1440,
+        "height": 2160,
+        "bytes": 118576,
+        "sha256": "9dc49eeb382afd9282295f32842cd0b5ae44177fc599fd5c585820b5607c85e9"
+      }
+    ],
+    "platform": "Pexels",
+    "license": "https://www.pexels.com/license/",
+    "verified": "2026-09-16"
+  },
+  {
+    "key": "mirror",
+    "id": 5938237,
+    "name": "sora-shimazaki-morning-mirror",
+    "author": "Sora Shimazaki",
+    "source": "https://www.pexels.com/photo/crop-ethnic-woman-applying-cream-on-face-against-mirror-5938237/",
+    "use": "Filozofie — ranní péče u zrcadla.",
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "alt": "Žena v bílém županu nanáší krém na tvář a dívá se do zrcadla.",
+    "sourceDimensions": [
+      2400,
+      1600
+    ],
+    "sourceBytes": 242445,
+    "downloadUrl": "https://images.pexels.com/photos/5938237/pexels-photo-5938237.jpeg?auto=compress&cs=tinysrgb&w=2400&q=92",
+    "variants": [
+      {
+        "file": "sora-shimazaki-morning-mirror-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 9886,
+        "sha256": "b483b2482b4a49c09d06ba9026cb07cf428a0a7195c4cbe806a900a52521fb08"
+      },
+      {
+        "file": "sora-shimazaki-morning-mirror-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 24290,
+        "sha256": "a3a97a689154bc922f19ba7ea90a2306344b53485c23152b93accbcd8a5d2e7b"
+      },
+      {
+        "file": "sora-shimazaki-morning-mirror-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 43128,
+        "sha256": "88711771a3956d80ff02d4d5ab8c59ce98260d960786ccfa29be7312225a3c54"
+      },
+      {
+        "file": "sora-shimazaki-morning-mirror-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 71394,
+        "sha256": "339ffb4d4c8b8aff0d2491bb58cd9090c117578e181f576f3a38fb1a4659da79"
+      }
+    ],
+    "platform": "Pexels",
+    "license": "https://www.pexels.com/license/",
+    "verified": "2026-09-16"
+  },
+  {
+    "key": "water",
+    "id": 4114724,
+    "name": "cottonbro-hands-running-water",
+    "author": "cottonbro studio",
+    "source": "https://www.pexels.com/photo/person-washing-hands-4114724/",
+    "use": "Kategorie Cleanse — ruce pod tekoucí vodou.",
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "alt": "Ruce oplachované proudem vody nad světlým keramickým umyvadlem.",
+    "sourceDimensions": [
+      2400,
+      1800
+    ],
+    "sourceBytes": 182719,
+    "downloadUrl": "https://images.pexels.com/photos/4114724/pexels-photo-4114724.jpeg?auto=compress&cs=tinysrgb&w=2400&q=92",
+    "variants": [
+      {
+        "file": "cottonbro-hands-running-water-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 6870,
+        "sha256": "118dfd6d1cd5daa9d5c84aa7e18f1eae17e569799ca5702f83b6fe407ab9f69b"
+      },
+      {
+        "file": "cottonbro-hands-running-water-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 16804,
+        "sha256": "c313864aea1964601845850b0881da61a1f9a6412e28bb4dd96767e96bcd1806"
+      },
+      {
+        "file": "cottonbro-hands-running-water-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 30686,
+        "sha256": "f71d0513ac0a8c1591c5b266abc3968c9c5a8d3d813a3fec1b455367b6320ca7"
+      }
+    ],
+    "platform": "Pexels",
+    "license": "https://www.pexels.com/license/",
+    "verified": "2026-09-16"
+  },
+  {
+    "key": "skin",
+    "id": 5938590,
+    "name": "sora-shimazaki-cheek-cream-detail",
+    "author": "Sora Shimazaki",
+    "source": "https://www.pexels.com/photo/african-american-woman-applying-cream-on-face-5938590/",
+    "use": "Kategorie Hydrate — dotek ruky na tváři. Ořez bez kelímku.",
+    "crop": [
+      0,
+      0,
+      1,
+      0.6
+    ],
+    "alt": "Prsty jemně roztírají krém na tváři nad límcem bílého županu.",
+    "sourceDimensions": [
+      2214,
+      3323
+    ],
+    "sourceBytes": 808709,
+    "downloadUrl": "https://images.pexels.com/photos/5938590/pexels-photo-5938590.jpeg?auto=compress&cs=tinysrgb&w=2400&q=92",
+    "variants": [
+      {
+        "file": "sora-shimazaki-cheek-cream-detail-480.webp",
+        "width": 480,
+        "height": 432,
+        "bytes": 14852,
+        "sha256": "4c3f95015238639aff1c36ec34ce24db399bcbef126b345003358ae6321d26a1"
+      },
+      {
+        "file": "sora-shimazaki-cheek-cream-detail-960.webp",
+        "width": 960,
+        "height": 865,
+        "bytes": 61526,
+        "sha256": "a6f16e204505033c00c4fdcd3f4e95d90e1b26a17eb11b2e2cfcb3022ea5398e"
+      },
+      {
+        "file": "sora-shimazaki-cheek-cream-detail-1440.webp",
+        "width": 1440,
+        "height": 1297,
+        "bytes": 174208,
+        "sha256": "7a2469b55e451867596b3375c31eb8fe828bb5460f9ba36e28dff57aac72cd5c"
+      }
+    ],
+    "platform": "Pexels",
+    "license": "https://www.pexels.com/license/",
+    "verified": "2026-09-16"
+  },
+  {
+    "key": "light",
+    "id": 5872379,
+    "name": "kayley-window-light-ceramic",
+    "author": "Kayley",
+    "source": "https://www.pexels.com/photo/tiled-wall-of-stylish-bathroom-in-daylight-5872379/",
+    "use": "Kategorie Protect — denní světlo na keramice, pouze atmosférický motiv.",
+    "crop": [
+      0,
+      0,
+      1,
+      0.87
+    ],
+    "alt": "Denní světlo kreslí tiché geometrické stíny na světlých obkladech.",
+    "sourceDimensions": [
+      2400,
+      3000
+    ],
+    "sourceBytes": 248464,
+    "downloadUrl": "https://images.pexels.com/photos/5872379/pexels-photo-5872379.jpeg?auto=compress&cs=tinysrgb&w=2400&q=92",
+    "variants": [
+      {
+        "file": "kayley-window-light-ceramic-480.webp",
+        "width": 480,
+        "height": 522,
+        "bytes": 6434,
+        "sha256": "bae42a1f5c7bad551bcd1074bba60172b782c67d179374127be33bd218ca673f"
+      },
+      {
+        "file": "kayley-window-light-ceramic-960.webp",
+        "width": 960,
+        "height": 1044,
+        "bytes": 16584,
+        "sha256": "0ffffc06ed708e595e1f964f43f96cfef7ca794fbedde8a4be3a84365f5a8eca"
+      },
+      {
+        "file": "kayley-window-light-ceramic-1440.webp",
+        "width": 1440,
+        "height": 1566,
+        "bytes": 29496,
+        "sha256": "ab3f71bb8ddecdd511d30dd14c8efe7f4f570c3807fe277d4f8a1310e91f9038"
+      }
+    ],
+    "platform": "Pexels",
+    "license": "https://www.pexels.com/license/",
+    "verified": "2026-09-16"
+  },
+  {
+    "key": "ritual",
+    "id": 5938597,
+    "name": "sora-shimazaki-quiet-mirror-ritual",
+    "author": "Sora Shimazaki",
+    "source": "https://www.pexels.com/photo/black-woman-applying-cream-in-bathroom-5938597/",
+    "use": "Tříkrokový rituál — detail doteku v zrcadle. Ořez bez kelímku.",
+    "crop": [
+      0,
+      0,
+      0.79,
+      0.54
+    ],
+    "alt": "Detail ruky u tváře a bílého županu v odrazu koupelnového zrcadla.",
+    "sourceDimensions": [
+      2400,
+      1600
+    ],
+    "sourceBytes": 256537,
+    "downloadUrl": "https://images.pexels.com/photos/5938597/pexels-photo-5938597.jpeg?auto=compress&cs=tinysrgb&w=2400&q=92",
+    "variants": [
+      {
+        "file": "sora-shimazaki-quiet-mirror-ritual-480.webp",
+        "width": 480,
+        "height": 219,
+        "bytes": 8212,
+        "sha256": "efee810179df2c15d15ac4eaf1a9e64c5ad2afed856b14b743589d86bf3237f6"
+      },
+      {
+        "file": "sora-shimazaki-quiet-mirror-ritual-960.webp",
+        "width": 960,
+        "height": 437,
+        "bytes": 20792,
+        "sha256": "fa27acd97d878f04a5cde3a073b1529344584bf00e5b0298519871c31a17f9bc"
+      },
+      {
+        "file": "sora-shimazaki-quiet-mirror-ritual-1440.webp",
+        "width": 1440,
+        "height": 656,
+        "bytes": 36076,
+        "sha256": "f250b22bd210490043b3299957d30f88861fc9eb594984d09cfabd6d3b61769a"
+      }
+    ],
+    "platform": "Pexels",
+    "license": "https://www.pexels.com/license/",
+    "verified": "2026-09-16"
+  },
+  {
+    "key": "linen",
+    "id": 7303903,
+    "name": "cup-of-couple-cloth-wooden-brush",
+    "author": "Cup of Couple",
+    "source": "https://www.pexels.com/photo/a-brush-lying-on-a-cloth-7303903/",
+    "use": "Produktová kolekce — oddělený textilní detail; O značce — širší zátiší s kartáčem a tkaninou.",
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "alt": "Dřevěný kartáč na složené světlé tkanině na kamenné koupelnové ploše.",
+    "sourceDimensions": [
+      2400,
+      1600
+    ],
+    "sourceBytes": 170909,
+    "downloadUrl": "https://images.pexels.com/photos/7303903/pexels-photo-7303903.jpeg?auto=compress&cs=tinysrgb&w=2400&q=92",
+    "variants": [
+      {
+        "file": "cup-of-couple-cloth-wooden-brush-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 8218,
+        "sha256": "a5d90b402578390bfc605dbe2d69d1bece258d9e1f290bafe1741bbb44798a8a"
+      },
+      {
+        "file": "cup-of-couple-cloth-wooden-brush-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 20600,
+        "sha256": "014fefecb8f048049146dfbac88b999b0925975205335f4c2e20ff5a9b6d7741"
+      },
+      {
+        "file": "cup-of-couple-cloth-wooden-brush-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 35466,
+        "sha256": "d758d0ee47406c991e9dd7b545ee9dc87abc9d38196132d506ae6f83fd904f93"
+      }
+    ],
+    "platform": "Pexels",
+    "license": "https://www.pexels.com/license/",
+    "verified": "2026-09-16"
+  }
+]
